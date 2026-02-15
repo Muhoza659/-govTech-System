@@ -17,6 +17,6 @@ public class Citizen {
 
     @Override
     public String toString() {
-        return nationalId + "," + name;
+        return name + " (ID: " + nationalId + ")";
     }
 }

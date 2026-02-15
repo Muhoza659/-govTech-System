@@ -7,6 +7,7 @@ public class Main {
         Citizen c1 = new Citizen("1199900012345678", "Jane");
         Citizen c2 = new Citizen("1198800012345678", "Peter");
 
+
         GovernmentService birth = new BirthCertificateService();
         GovernmentService driving = new DrivingTestService();
 
